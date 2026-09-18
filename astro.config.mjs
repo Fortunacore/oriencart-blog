@@ -128,3 +128,7 @@ expressiveCode({
     boxShadow: "none",
   },
 }),
+mdx(),
+pagefind(),
+  ],
+})
