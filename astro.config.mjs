@@ -1,3 +1,4 @@
+import expressiveCode from "astro-expressive-code"
 import mdx from "@astrojs/mdx"
 import partytown from "@astrojs/partytown"
 import sitemap from "@astrojs/sitemap"
@@ -57,14 +58,6 @@ export default defineConfig({
   },
   markdown: {
     processor: satteri(),
-    shikiConfig: {
-      themes: {
-        light: "github-light",
-        dark: "github-dark",
-      },
-      defaultColor: false,
-      wrap: true,
-    },
   },
   experimental: {
     incrementalBuild: true,
@@ -127,6 +120,9 @@ export default defineConfig({
         }
       },
     }),
+expressiveCode({
+  themes: ["github-light", "github-dark"],
+}),
     mdx(),
     pagefind(),
   ],
