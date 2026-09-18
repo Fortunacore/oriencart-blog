@@ -9,6 +9,8 @@ authors:
   - default
 heroImage: https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=1200
 heroImageAlt: 图片描述
+heroImageWidth: 1200
+heroImageHeight: 800
 locale: en
 draft: false
 featured: false
