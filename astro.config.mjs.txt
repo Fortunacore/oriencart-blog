@@ -122,8 +122,9 @@ export default defineConfig({
     }),
 expressiveCode({
   themes: ["github-light", "github-dark"],
+  styleOverrides: {
+    borderRadius: "8px",
+    borderColor: "#e5e7eb",
+    boxShadow: "none",
+  },
 }),
-    mdx(),
-    pagefind(),
-  ],
-})
