@@ -1,16 +1,17 @@
 ---
-title: "Placeholder Article 02"
-description: "A placeholder article for multilingual content scaffolding."
-category: "invest"
+title: Placeholder Article 02
+description: A placeholder article for multilingual content scaffolding.
+category: invest
 tags:
-  - "media"
-  - "risk"
-  - "placeholder"
+  - media
+  - risk
+  - placeholder
 pubDate: 2026-06-01
 authors:
-  - "default"
-heroImage: "https://images.unsplash.com/photo-1620207418302-439b387441b0"
-heroImageAlt: "Cover image for placeholder article 02"
+  - default
+  - "[[20170505-think-more.mdx]]"
+heroImage: https://images.unsplash.com/photo-1620207418302-439b387441b0
+heroImageAlt: Cover image for placeholder article 02
 heroImageWidth: 1600
 heroImageHeight: 1067
 draft: false

@@ -1,4 +1,6 @@
 {
   "livePreview": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": false,
+  "showUnsupportedFiles": true
 }
